@@ -7,4 +7,4 @@ The main aim of this project is to get a good knowledge about html and css part,
 
 This gave me a good experience on html and css part and gave a good interest on web dev.
 
-Thanking You!
+Thank You!
