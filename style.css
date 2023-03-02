@@ -237,7 +237,6 @@ body{
     padding-bottom: 12px;
     width: 175px;
     height: 75px;
-    cursor: pointer;
 }
 .check-out{
     position: absolute;
@@ -250,7 +249,6 @@ body{
     padding-bottom: 12px;
     width: 185px;
     height: 75px;
-    cursor: pointer;
 }
 .guests{
     position: absolute;
@@ -268,7 +266,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    cursor: pointer;
 }
 .btn{
     position: absolute;

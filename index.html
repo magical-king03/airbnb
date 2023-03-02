@@ -259,20 +259,21 @@
                     </div>                
                     <div class="check-in">
                         <h6>CHECK-IN</h6>
-                        <p style="color: gray;">Add date</p>
+                        <input type="text" style="color: gray; border: none;" placeholder="Add date">
                     </div>
                     <div class="check-out">
                         <h6>CHECK-OUT</h6>
-                        <p style="color: gray;">Add date</p>
+                        <input type="text" style="color: gray; border: none;" placeholder="Add date">
                     </div>
                     <div class="guests">
-                        <div class="guests-content">
-                            <h6>GUESTS</h6>
-                            <p style="color: gray;">1 guest</p>
-                        </div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                        </svg>
+                            <label for="guests" style="outline: none; width: 361px;">Guests </label>
+                            <select name="guests" id="guests">
+                                <option value="1">1      </option>
+                                <option value="2">2      </option>
+                                <option value="3">3      </option>
+                                <option value="4">4      </option>
+                                <option value="5">5      </option>
+                            </select>
                     </div>
                     <button class="btn">Check availability</button>                
                 </div>
